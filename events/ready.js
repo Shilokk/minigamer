@@ -1,5 +1,4 @@
 const colors = require('colors')
-const db = require('mongoose');
 // const Statcord = require('statcord.js')
 // const {
 //     ShardingManager
