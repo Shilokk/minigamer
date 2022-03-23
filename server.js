@@ -5,7 +5,7 @@ const { token } = require("./data/config.json")
 const manager = new ShardingManager('./src/index.js', { token: token });
 // Create statcord sharding client
 const statcord = new ShardingClient({
-    key: "statcord.com-a4tXCguhZvtt3EPgfFfi",
+    key: "",
     manager,
     postCpuStatistics: true, /* Whether to post CPU statistics or not, defaults to true */
     postMemStatistics: true, /* Whether to post memory statistics or not, defaults to true */
